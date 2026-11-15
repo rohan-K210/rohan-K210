@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/profile-banner.svg" alt="Rohan Krishna — Computer Science undergraduate at CET" width="100%"/>
+<img src="https://raw.githubusercontent.com/rohan-K210/rohan-K210/main/assets/profile-banner.svg" alt="Rohan Krishna — Computer Science undergraduate at CET" width="100%"/>
 
 ### Computer Science Undergraduate · College of Engineering Trivandrum
 
