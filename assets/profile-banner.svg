@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Rohan Krishna — Software Engineering</title>
+  <desc id="desc">A dark terminal-inspired banner with neon green and cyan system graphics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b10"/>
+      <stop offset="1" stop-color="#101a22"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7CFF6B"/>
+      <stop offset="1" stop-color="#55D6FF"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#a5c6d4" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <path d="M0 245H1200" stroke="#7CFF6B" stroke-opacity=".28"/>
+  <circle cx="1080" cy="80" r="145" fill="#55D6FF" opacity=".055"/>
+  <circle cx="1080" cy="80" r="100" fill="none" stroke="#55D6FF" stroke-opacity=".18"/>
+  <circle cx="1080" cy="80" r="65" fill="none" stroke="#7CFF6B" stroke-opacity=".25"/>
+  <g fill="none" stroke="url(#glow)" stroke-width="2" opacity=".75">
+    <path d="M850 45h75l20 20h90"/>
+    <path d="M900 105h65l20-20h120"/>
+    <path d="M875 165h90l20 20h120"/>
+    <circle cx="850" cy="45" r="4" fill="#7CFF6B"/>
+    <circle cx="900" cy="105" r="4" fill="#7CFF6B"/>
+    <circle cx="875" cy="165" r="4" fill="#7CFF6B"/>
+    <circle cx="1055" cy="65" r="4" fill="#55D6FF"/>
+    <circle cx="1105" cy="85" r="4" fill="#55D6FF"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="72" y="72" fill="#7CFF6B" font-size="15" letter-spacing="3">[ SYSTEM PROFILE / 001 ]</text>
+    <text x="70" y="145" fill="#F1F5F9" font-size="48" font-weight="700">ROHAN KRISHNA</text>
+    <text x="73" y="185" fill="#B7C8D3" font-size="19">Computer Science Undergraduate · CET Trivandrum</text>
+    <text x="73" y="232" fill="#7CFF6B" font-size="16">backend systems  //  security  //  networks  //  open source</text>
+    <text x="1110" y="260" text-anchor="end" fill="#8AA2B1" font-size="12">STATUS: BUILDING</text>
+  </g>
+</svg>
